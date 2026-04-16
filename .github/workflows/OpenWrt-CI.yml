@@ -8,8 +8,9 @@
 name: OpenWrt-CI
 
 on:
-  schedule:
-    - cron: 0 16 * * *
+  workflow_dispatch: # 允许手动触发
+  #schedule:
+  #  - cron: 0 16 * * *
 
 permissions:
   contents: read
