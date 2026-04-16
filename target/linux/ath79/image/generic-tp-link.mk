@@ -607,7 +607,7 @@ endef
 TARGET_DEVICES += tplink_tl-wdr3600-v1
 
 define Device/tplink_tl-wdr4300-v1
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9344
   DEVICE_MODEL := TL-WDR4300
   DEVICE_VARIANT := v1
